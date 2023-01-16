@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: #f7bdff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(233, 91, 190);
+    min-height: 70px;
+    font-size: 30px;
+    
+}
+
+.inline{
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+}
+
+main {
+    flex: 1;
+    padding-bottom: 20px;
+    /* margin: auto; */
+    font-size: 20px;
+}
+
+form {
+    text-align: center;
+    padding-top: 20px;
+}
+
+label {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+textarea {
+    min-width: 400px;
+    min-height: 100px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(50, 197, 223);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.src_error {
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(66, 238, 250);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.intext {
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(39, 236, 210);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.table_view {
+    background-color: #ed80f7;
+    line-height: 1.1;
+    margin: auto;
+}
+
+th {
+    border: 1px solid grey;
+    
+}
+
+td {
+    border: 1px solid #000000;  
+    min-width: 100px;
+    text-align: center;
+}
+
+.linktomain {
+    text-decoration: none;
+    
+    font-size: 34px;
+    font-style: bold;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    /* margin: 20px 100px; */
+}
+
+a {
+    text-decoration: none;
+    color: #39063e;
+}
+
+
+
+footer {
+    background-color: rgb(214, 72, 205);
+    min-height: 90px;
+    font-size: 20px;
+}
+
+.left{
+    float: left;
+    padding-top: 40px;
+}
